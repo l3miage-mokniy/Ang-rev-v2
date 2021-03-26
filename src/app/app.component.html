@@ -1,0 +1,17 @@
+<hello [name]="name"
+       [age] = "monAge / 1000"
+       (chatouille)="chanter()"
+></hello>
+<h1>{{ observableNote | async }}</h1>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<hello [name]="name.toUpperCase()"
+       [age] = "monAge"
+       (chatouille)=" rigoler() "
+></hello>
+
+<hello [name]="name.toLowerCase()"
+       [age] = "monAge / 1000"
+       (chatouille)="silence()"
+></hello>
